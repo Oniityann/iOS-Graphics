@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFE138182143E0380086D015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE138172143E0380086D015 /* AppDelegate.swift */; };
+		EFE1381D2143E0380086D015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE1381B2143E0380086D015 /* Main.storyboard */; };
+		EFE1381F2143E0390086D015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE1381E2143E0390086D015 /* Assets.xcassets */; };
+		EFE138222143E0390086D015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE138202143E0390086D015 /* LaunchScreen.storyboard */; };
+		EFE1382D2143E03A0086D015 /* Quartz2DDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1382C2143E03A0086D015 /* Quartz2DDrawTests.swift */; };
+		EFE138382143E03A0086D015 /* Quartz2DDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE138372143E03A0086D015 /* Quartz2DDrawUITests.swift */; };
+		EFE138462143E0920086D015 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE138452143E0920086D015 /* MainTableViewController.swift */; };
+		EFE138492143FFE50086D015 /* CircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE138482143FFE50086D015 /* CircleChart.swift */; };
+		EFE1384B2144038D0086D015 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1384A2144038D0086D015 /* CircleViewController.swift */; };
+		EFE1384D214403940086D015 /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1384C214403940086D015 /* PieViewController.swift */; };
+		EFE1384F2144039D0086D015 /* SnapShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1384E2144039D0086D015 /* SnapShotViewController.swift */; };
+		EFE13851214403B70086D015 /* RoundedCornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE13850214403B70086D015 /* RoundedCornerViewController.swift */; };
+		EFE138532144409A0086D015 /* PieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE138522144409A0086D015 /* PieItem.swift */; };
+		EFE13855214440AA0086D015 /* PieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE13854214440AA0086D015 /* PieView.swift */; };
+		EFE13857214444EB0086D015 /* UIImage+Quarz.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE13856214444EB0086D015 /* UIImage+Quarz.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE138292143E03A0086D015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE1380C2143E0380086D015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE138132143E0380086D015;
+			remoteInfo = Quartz2DDraw;
+		};
+		EFE138342143E03A0086D015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE1380C2143E0380086D015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE138132143E0380086D015;
+			remoteInfo = Quartz2DDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFE138142143E0380086D015 /* Quartz2DDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2DDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE138172143E0380086D015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFE1381C2143E0380086D015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE1381E2143E0390086D015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE138212143E0390086D015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFE138232143E0390086D015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE138282143E03A0086D015 /* Quartz2DDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE1382C2143E03A0086D015 /* Quartz2DDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quartz2DDrawTests.swift; sourceTree = "<group>"; };
+		EFE1382E2143E03A0086D015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE138332143E03A0086D015 /* Quartz2DDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE138372143E03A0086D015 /* Quartz2DDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quartz2DDrawUITests.swift; sourceTree = "<group>"; };
+		EFE138392143E03A0086D015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE138452143E0920086D015 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		EFE138482143FFE50086D015 /* CircleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChart.swift; sourceTree = "<group>"; };
+		EFE1384A2144038D0086D015 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		EFE1384C214403940086D015 /* PieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
+		EFE1384E2144039D0086D015 /* SnapShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapShotViewController.swift; sourceTree = "<group>"; };
+		EFE13850214403B70086D015 /* RoundedCornerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerViewController.swift; sourceTree = "<group>"; };
+		EFE138522144409A0086D015 /* PieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieItem.swift; sourceTree = "<group>"; };
+		EFE13854214440AA0086D015 /* PieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieView.swift; sourceTree = "<group>"; };
+		EFE13856214444EB0086D015 /* UIImage+Quarz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Quarz.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE138112143E0380086D015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE138252143E03A0086D015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE138302143E03A0086D015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE1380B2143E0380086D015 = {
+			isa = PBXGroup;
+			children = (
+				EFE138162143E0380086D015 /* Quartz2DDraw */,
+				EFE1382B2143E03A0086D015 /* Quartz2DDrawTests */,
+				EFE138362143E03A0086D015 /* Quartz2DDrawUITests */,
+				EFE138152143E0380086D015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE138152143E0380086D015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE138142143E0380086D015 /* Quartz2DDraw.app */,
+				EFE138282143E03A0086D015 /* Quartz2DDrawTests.xctest */,
+				EFE138332143E03A0086D015 /* Quartz2DDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE138162143E0380086D015 /* Quartz2DDraw */ = {
+			isa = PBXGroup;
+			children = (
+				EFE138472143FD5C0086D015 /* Draw */,
+				EFE138172143E0380086D015 /* AppDelegate.swift */,
+				EFE138452143E0920086D015 /* MainTableViewController.swift */,
+				EFE1384A2144038D0086D015 /* CircleViewController.swift */,
+				EFE1384C214403940086D015 /* PieViewController.swift */,
+				EFE1384E2144039D0086D015 /* SnapShotViewController.swift */,
+				EFE13850214403B70086D015 /* RoundedCornerViewController.swift */,
+				EFE1381B2143E0380086D015 /* Main.storyboard */,
+				EFE1381E2143E0390086D015 /* Assets.xcassets */,
+				EFE138202143E0390086D015 /* LaunchScreen.storyboard */,
+				EFE138232143E0390086D015 /* Info.plist */,
+			);
+			path = Quartz2DDraw;
+			sourceTree = "<group>";
+		};
+		EFE1382B2143E03A0086D015 /* Quartz2DDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE1382C2143E03A0086D015 /* Quartz2DDrawTests.swift */,
+				EFE1382E2143E03A0086D015 /* Info.plist */,
+			);
+			path = Quartz2DDrawTests;
+			sourceTree = "<group>";
+		};
+		EFE138362143E03A0086D015 /* Quartz2DDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE138372143E03A0086D015 /* Quartz2DDrawUITests.swift */,
+				EFE138392143E03A0086D015 /* Info.plist */,
+			);
+			path = Quartz2DDrawUITests;
+			sourceTree = "<group>";
+		};
+		EFE138472143FD5C0086D015 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				EFE138482143FFE50086D015 /* CircleChart.swift */,
+				EFE138522144409A0086D015 /* PieItem.swift */,
+				EFE13854214440AA0086D015 /* PieView.swift */,
+				EFE13856214444EB0086D015 /* UIImage+Quarz.swift */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE138132143E0380086D015 /* Quartz2DDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE1383C2143E03A0086D015 /* Build configuration list for PBXNativeTarget "Quartz2DDraw" */;
+			buildPhases = (
+				EFE138102143E0380086D015 /* Sources */,
+				EFE138112143E0380086D015 /* Frameworks */,
+				EFE138122143E0380086D015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quartz2DDraw;
+			productName = Quartz2DDraw;
+			productReference = EFE138142143E0380086D015 /* Quartz2DDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE138272143E03A0086D015 /* Quartz2DDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE1383F2143E03A0086D015 /* Build configuration list for PBXNativeTarget "Quartz2DDrawTests" */;
+			buildPhases = (
+				EFE138242143E03A0086D015 /* Sources */,
+				EFE138252143E03A0086D015 /* Frameworks */,
+				EFE138262143E03A0086D015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE1382A2143E03A0086D015 /* PBXTargetDependency */,
+			);
+			name = Quartz2DDrawTests;
+			productName = Quartz2DDrawTests;
+			productReference = EFE138282143E03A0086D015 /* Quartz2DDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFE138322143E03A0086D015 /* Quartz2DDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE138422143E03A0086D015 /* Build configuration list for PBXNativeTarget "Quartz2DDrawUITests" */;
+			buildPhases = (
+				EFE1382F2143E03A0086D015 /* Sources */,
+				EFE138302143E03A0086D015 /* Frameworks */,
+				EFE138312143E03A0086D015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE138352143E03A0086D015 /* PBXTargetDependency */,
+			);
+			name = Quartz2DDrawUITests;
+			productName = Quartz2DDrawUITests;
+			productReference = EFE138332143E03A0086D015 /* Quartz2DDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE1380C2143E0380086D015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Oniityann;
+				TargetAttributes = {
+					EFE138132143E0380086D015 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EFE138272143E03A0086D015 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EFE138132143E0380086D015;
+					};
+					EFE138322143E03A0086D015 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EFE138132143E0380086D015;
+					};
+				};
+			};
+			buildConfigurationList = EFE1380F2143E0380086D015 /* Build configuration list for PBXProject "Quartz2DDraw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE1380B2143E0380086D015;
+			productRefGroup = EFE138152143E0380086D015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE138132143E0380086D015 /* Quartz2DDraw */,
+				EFE138272143E03A0086D015 /* Quartz2DDrawTests */,
+				EFE138322143E03A0086D015 /* Quartz2DDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE138122143E0380086D015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE138222143E0390086D015 /* LaunchScreen.storyboard in Resources */,
+				EFE1381F2143E0390086D015 /* Assets.xcassets in Resources */,
+				EFE1381D2143E0380086D015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE138262143E03A0086D015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE138312143E03A0086D015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE138102143E0380086D015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE138462143E0920086D015 /* MainTableViewController.swift in Sources */,
+				EFE13857214444EB0086D015 /* UIImage+Quarz.swift in Sources */,
+				EFE138492143FFE50086D015 /* CircleChart.swift in Sources */,
+				EFE1384B2144038D0086D015 /* CircleViewController.swift in Sources */,
+				EFE1384D214403940086D015 /* PieViewController.swift in Sources */,
+				EFE1384F2144039D0086D015 /* SnapShotViewController.swift in Sources */,
+				EFE13855214440AA0086D015 /* PieView.swift in Sources */,
+				EFE138532144409A0086D015 /* PieItem.swift in Sources */,
+				EFE138182143E0380086D015 /* AppDelegate.swift in Sources */,
+				EFE13851214403B70086D015 /* RoundedCornerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE138242143E03A0086D015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE1382D2143E03A0086D015 /* Quartz2DDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE1382F2143E03A0086D015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE138382143E03A0086D015 /* Quartz2DDrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE1382A2143E03A0086D015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE138132143E0380086D015 /* Quartz2DDraw */;
+			targetProxy = EFE138292143E03A0086D015 /* PBXContainerItemProxy */;
+		};
+		EFE138352143E03A0086D015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE138132143E0380086D015 /* Quartz2DDraw */;
+			targetProxy = EFE138342143E03A0086D015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFE1381B2143E0380086D015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE1381C2143E0380086D015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFE138202143E0390086D015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE138212143E0390086D015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE1383A2143E03A0086D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFE1383B2143E03A0086D015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE1383D2143E03A0086D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = Quartz2DDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oniityann.Quartz2DDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE1383E2143E03A0086D015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = Quartz2DDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oniityann.Quartz2DDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFE138402143E03A0086D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = Quartz2DDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oniityann.Quartz2DDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz2DDraw.app/Quartz2DDraw";
+			};
+			name = Debug;
+		};
+		EFE138412143E03A0086D015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = Quartz2DDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oniityann.Quartz2DDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz2DDraw.app/Quartz2DDraw";
+			};
+			name = Release;
+		};
+		EFE138432143E03A0086D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = Quartz2DDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oniityann.Quartz2DDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quartz2DDraw;
+			};
+			name = Debug;
+		};
+		EFE138442143E03A0086D015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = Quartz2DDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oniityann.Quartz2DDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quartz2DDraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE1380F2143E0380086D015 /* Build configuration list for PBXProject "Quartz2DDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE1383A2143E03A0086D015 /* Debug */,
+				EFE1383B2143E03A0086D015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE1383C2143E03A0086D015 /* Build configuration list for PBXNativeTarget "Quartz2DDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE1383D2143E03A0086D015 /* Debug */,
+				EFE1383E2143E03A0086D015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE1383F2143E03A0086D015 /* Build configuration list for PBXNativeTarget "Quartz2DDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE138402143E03A0086D015 /* Debug */,
+				EFE138412143E03A0086D015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE138422143E03A0086D015 /* Build configuration list for PBXNativeTarget "Quartz2DDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE138432143E03A0086D015 /* Debug */,
+				EFE138442143E03A0086D015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE1380C2143E0380086D015 /* Project object */;
+}
